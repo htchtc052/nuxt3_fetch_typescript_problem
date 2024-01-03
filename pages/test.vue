@@ -17,8 +17,7 @@ default: (): Post[] => [],
 console.debug(posts.value);
 </script>
 <template>
-  <h1>Account</h1>
-  <div>User pages</div>
+
   <div v-if="pending">Loading...</div>
   <div v-else>
     <ul>
